@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:projetoflutter/loginpage.dart';
-import 'package:projetoflutter/perfilpage.dart';
-import 'package:projetoflutter/relatoriomespage.dart';
-import 'package:projetoflutter/tarefaspage.dart';
-import 'anualPage.dart';
+import 'package:projetoflutter/views/loginPage_view.dart';
+import 'package:projetoflutter/views/perfil_view.dart';
+import 'package:projetoflutter/views/relatorioMes_view.dart';
+import 'package:projetoflutter/views/tarefas_view.dart';
+import 'anualPage_view.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
